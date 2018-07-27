@@ -10,7 +10,6 @@ const BUTCHER_PRODUCTS = [
 
 // Define these exported classes
 export class OlderCoaster extends Component {
-
   render() {
      return (
        <div className='oldercoaster'>
@@ -23,11 +22,17 @@ export class OlderCoaster extends Component {
        </div>
      )
    }
-
 }
 
 export class InFrontOfYou extends Component {
-  // your code here
+  render() {
+    return (
+      <div>
+        <p>You shouldn't look too far.</p>
+        <p>Sometimes, the solution is right in front of you.</p>
+      </div>
+    )
+  }
 }
 
 export class ButcherShop extends Component {
