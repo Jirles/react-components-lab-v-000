@@ -53,15 +53,9 @@ export class App extends Component {
   render() {
     return (
       <div id="app">
-      render() {
-          return (
-            <div id="app">
-              <OlderCoaster />
-              <InFrontOfYou />
-              <ButcherShop />
-            </div>
-          )
-        }
+        <OlderCoaster />
+        <InFrontOfYou />
+        <ButcherShop />
       </div>
     )
   }
